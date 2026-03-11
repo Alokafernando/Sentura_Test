@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/countries")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*") // Allow React frontend
+@CrossOrigin(origins = "*")
 public class CountryController {
 
     private final CountryService countryService;
